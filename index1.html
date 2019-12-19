@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 必备 -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>AI2创客项目-数码旅行家--随身医箱</title>
+    <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/datouwang.com.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- Slick slider -->
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <!-- Gallery Lightbox -->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <!-- Skills Circle CSS  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/circle.css">
+    
+
+    <!-- Main Style -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+
+    <!-- Google Fonts Raleway -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,500i,600,700" rel="stylesheet">
+	<!-- Google Fonts Open sans -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800" rel="stylesheet">
+	<script src="Scripts/swfobject_modified.js"></script>
+	   <script type="text/javascript" src="js/jquerv.js"></script>
+		<script type="text/javascript" src="js/layer/layer.js"></script>
+
+ 
+  </head>
+	
+  <body>
+
+   <!--START SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#">
+      <i class="fa fa-angle-up"></i>
+    </a>
+  <!-- END SCROLL TOP BUTTON -->
+  	
+  	<!-- Start 导航栏 -->
+	<header id="mu-hero">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light mu-navbar">
+				<!-- Text based logo -->
+			
+				<!-- image based logo -->
+			   	<a class="navbar-brand mu-logo" href="index.html" target="_blank"><img src="assets/images/logo.png" alt="logo"></a>
+				
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="fa fa-bars"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto mu-navbar-nav">
+				<div style="font-size: 15px;">
+			        <li class="nav-item"><a href="index.html"  target="_blank" style="font-size: 17px">主页</a></li>
+					<li class="nav-item"><a href="#需求分析" style="font-size: 17px">需求分析</a></li>
+			    
+					
+					  <li class="nav-item dropdown">
+				        <a class="dropdown-toggle" href="#新知学习" role="button" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 16px">新知学习</a>
+				       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#条件分支">条件分支</a>
+						  <a class="dropdown-item" href="#初始化">初始化</a>
+						  <a class="dropdown-item" href="#过程">过程</a>
+				        </div>
+				    </li>
+					<li class="nav-item"><a href="#规划设计" style="font-size: 17px">规划设计</a></li>
+			        <li class="nav-item"><a href="#制作实践" style="font-size: 17px">制作实践</a></li>
+					<li class="nav-item"><a href="#反思拓展" style="font-size: 17px">反思拓展</a></li>
+			        <li class="nav-item"><a href="https://app.wxbit.com/login/"  target="_blank" style="font-size: 17px">AI2通道</a></li>
+				</div>
+			    </ul>
+			  </div>
+			</nav>
+		</div>
+	</header>
+	<!-- End 导航栏 -->
+	  
+    <!-- Start 剧情导入 -->
+	 <div style=" position: relative;top:70px;display:block;height:90px;background-color:#26A691"></div>
+	  <div style=" position: relative;top:70px;display:block;height:30px;background-color:#217B74"></div>
+	  	
+				<div class="mu-title" style="background-color:#212327;color:#ECECEC">
+					<img src="assets/images/enter1.png"/>
+					<img src="assets/images/enter2.png"/>
+					<h2 style="color: #FFF;padding-top: 80px">学习地图</h2>
+										<p>不积跬步，无以致千里。</p>
+										<p>通过学习地图，我们可以明确地了解到在完成一个项目任务时所需要的步骤流程。</p>
+										<p>点击地图或导航栏上相应的板块可前往学习。</p>
+					</div>
+		  
+		  
+	<!-- End 剧情导入 -->
+	  
+	 <!-- Start 学习地图 -->
+		<!-- Start Title -->
+		<div class="buttom" style="background-color:#212327;padding-bottom:0px">
+			<div class="clear"> </div>
+				<div  style="background:url(assets/images/Learningmap2BG.png);width:820px;margin-left: auto;margin-right: auto">
+					
+					<div  style="padding-top: 80px">
+						<div id="mcontent">
+    <ul>
+        <li>
+            <a href="#需求分析"> <img src="assets/images/MAP1.png"/></a>
+            <div class="tit">
+                <p>情景导入</p>
+                <p>分析生活需求</p>
+            </div>
+        </li>
+        <li>
+            <a href="#新知学习"> <img src="assets/images/MAP2.png"/></a>
+            <div class="tit">
+                <p>问题拆分</p>
+                <p>针对问题学习</p>
+            </div>
+        </li>
+        <li>
+          <a href="#规划设计"> <img src="assets/images/MAP3.png"/></a>
+            <div class="tit">
+                <p>事预则立</p>
+                <p>动手设计蓝图</p>
+            </div>
+        </li>
+        <li>
+         <a href="#制作实践"> <img src="assets/images/MAP4.png"/></a>
+            <div class="tit">
+                <p>实战演练</p>
+                <p>制作初版APP</p>
+            </div>
+        </li>
+         <li>
+        <a href="#反思拓展"> <img src="assets/images/MAP5.png"/></a>
+            <div class="tit">
+                <p>改进完善</p>
+                <p>制作终版APP</p>
+            </div>
+        </li>
+    </ul>
+</div>
+
+					    </div>
+					
+			
+				  <div class="clear"> </div>
+				</div>
+			<div style="padding-top: 50px">
+		<svg class="pwaves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+			<defs>
+				<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+			</defs>
+			<g class="parallax">
+				<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+				<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+				<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+				<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+			</g>
+		</svg>
+	</div>
+		 </div>
+		<!-- End 学习地图 -->
+ 
+	
+
+	
+	<!-- Start main content -->
+	<main>
+  <section class="mu-title" style="padding-top: 80px">
+			<div class="video">
+  <a class="mu-bt1" data-iframe="assets/images/PLAN.png" style="cursor: pointer;color: #4A4044"
+			   >点击获取任务方案</a></div>
+			<div style="padding-top: 50px"><img src="assets/images/PICT01s.gif"/></div>
+			</section>
+		
+		
+		<!-- Start 任务讨论 -->
+  <section class="mu-title" style="margin-bottom: -20px;border-top: dotted;border-top-color: #0FBA9E">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-service-area">
+							<!-- Title -->
+							<div class="row">
+								<div class="col-md-12">
+									<div class="mu-title">
+									<a name="需求分析" style=" position: relative;top: -120px;display: block;height: 0;overflow: hidden;"></a>
+									<div class="需求分析"></div>	
+										<h2>需求分析</h2>
+				                        <p>如今，不少家庭都准备了医药箱。在遇到一些小毛病时，使用随身医箱可以方便快捷地解决问题。</p>
+										<p>我们可以尝试设计一款“随身医箱” App，做到随身“看病”。</p>
+			                           
+			                            
+
+									</div>
+								</div>
+							</div>
+							<div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+								<div class="col-md-12">
+									<div class="mu-title" style="margin-top: -50px">
+										<img src="assets/images/CM2.png"/>
+										<img src="assets/images/pl1.png"/>
+										<p>阿卓根据任务情景，提出了一个初步要解决的任务问题</p>
+										<p>但是这个问题太过笼统，我们需要具体分析APP的需求来细化它</p>
+									</div>
+								</div>
+							
+		<section class="mu-newsletter">
+			<div class="mu-newsletter-area">
+			<div class="mu-title" style="padding-top: 0px">
+			<p>接下来，让我们看看阿卓与老师的思考讨论，或许你可以从中得到启发。</p>
+			<div><img src="assets/images/DC1.png"/></div>
+			<div><img src="assets/images/DC2.png"/></div>
+			<div><img src="assets/images/DC3.png"/></div>
+			<div style="padding-top: 50px">
+			<p>看了阿卓的讨论，你获得了什么启发？</p>
+			<p>请点击下方的链接进入讨论区畅所欲言！</p>
+			</div>
+			<div style="padding-top: 50px">
+				<a class="mu-bt1" href="https://m.umu.cn/ssu_TQ0X26d6" target="_blank">进入讨论</a>
+			</div>
+			
+			</div>
+			</div>
+		</section>	
+		<div class="col-md-12">
+									<div class="mu-title" >
+										<img src="assets/images/pl2.png"/>
+										<p>经过讨论和思考，阿卓已经完成了上述问题的细化。</p>
+										<p>在正式开始设计制作之前，让我们来思考这个具体的问题要如何解决？</p>
+										<p><img src="assets/images/DOG1.png"></p>
+									<div class="mu-title" style="padding-top: 50px" >
+										<a href="#规划设计" class="mu-bt1" >直接进入规划设计</a>
+			                        </div>
+									</div>
+									
+									
+        </div>
+		<!-- End 任务讨论 -->
+		
+		
+		
+		 <!-- Start 新知学习 -->
+		<section id="mu-portfolio">
+			
+							<!-- Title -->
+							
+									<div class="mu-title">
+									<a name="新知学习" style=" position: relative;top: -120px;display: block;height: 0;overflow: hidden;"></a>
+									    <div class="新知学习"></div>
+										<h2>新知学习</h2>
+										<p>接下来你会在问题提出、分解的过程中，学习解决关键问题的三大模块：</p>
+										<p>条件分支模块/初始化模块/过程模块</p>
+										<p>微课视频讲解与文字资料辅助学习，相信你没问题！</p>
+                                    </div>
+			
+			
+			<!-- Start 条件分支 -->
+			<section class="mu-newsletter">
+				<a name="条件分支" style=" position: relative;top: -120px;display: block;height: 0;overflow: hidden;"></a>
+				 <div class="条件分支"></div>
+			<div class="mu-newsletter-area"  style="padding-top: 0px;padding-bottom: 0px;">
+			<div class="mu-title" style="padding-top: 0px">
+			<img src="assets/images/NK1.png" >
+			
+				<div  class="void"  style="width:880px;margin-left: auto;margin-right: auto">
+					 <img src="assets/images/L01.png" alt=""/>
+					 <img src="assets/images/L02.png" alt=""/>
+					 <a class="void" data-iframe="assets/images/NB2.png" style="cursor: pointer"> <img src="assets/images/L03.png" alt=""/></a>
+					 <img src="assets/images/L04.png" alt=""/>
+					 <a class="void"  data-iframe="assets/images/NB1.png" style="cursor: pointer"> <img src="assets/images/L05.png" alt=""/></a>
+					 <img src="assets/images/L06.png" alt=""/>
+					 <a class="void"  data-iframe="assets/images/NB3.png" style="cursor: pointer"> <img src="assets/images/L07.png" alt=""/></a>
+			
+				  <div class="clear"> </div>
+				</div>
+			</div>
+			</div>
+		</section>
+			<div class="mu-title"  style="padding-top:0px;background: url(assets/images/NKBG.png);border-bottom: dotted;border-color: #0EBA9F">
+				<div  style="width:840px;height:260px;margin-left: auto;margin-right: auto;">
+					<div  style="width:100%;padding-top: 30px;padding-left:5%;padding-right:auto">
+						<div class="video">
+						<div class="video-wrap">
+						<div class="vr-small">
+							<div class="inner" data-iframe="video/MC2.mp4">
+								<img src="images/large-003.jpg" alt="">
+								<i class="play"></i>
+								<span class="text">①微课视频-条件分支模块</span>
+							</div>
+							
+						</div>
+						<div class="vr-small" style="margin-left: 32%">
+						<div class="mu-sidebar-widget">
+											<h3 class="mu-sidebar-widget-title">学习资源</h3>
+											<ul class="mu-sidebar-widget-nav">
+												<strong>
+												<li><div class="void"><a class="void" data-iframe="assets/program/知识训练2条件判断fla.swf" style="cursor: pointer;color:#0EBA9F">巩固练习</a></div></li>
+												<li><a href="https://m.umu.cn/ssu_Ue4h2314" target="_blank"><i aria-hidden="true"></i>PDF资源</a></li>
+												<li><a href="http://www.shaoerbc.org/code-course/appinventor-course/2018.html" target="_blank"><i aria-hidden="true"></i>知识拓展</a></li>
+											</strong>
+											</ul>
+										</div></div>
+						</div>
+						</div>
+			      </div>
+				</div>
+			</div>
+		
+			
+			
+			
+			<!-- Start 初始化-->
+			<section class="mu-newsletter">
+			<a name="初始化" style=" position: relative;top: -120px;display: block;height: 0;overflow: hidden;"></a><div class="初始化"></div>
+			<div class="mu-newsletter-area"  style="padding-top: 0px;padding-bottom: 0px;">
+			<div class="mu-title" style="padding-top: 0px">
+			<img src="assets/images/NK2.png" >
+			</div>
+			</div>
+		</section>
+			<div class="mu-title"  style="padding-top:0px;background: url(assets/images/NKBG.png);border-bottom: dotted;border-color: #0EBA9F">
+				<div  style="width:840px;height:260px;margin-left: auto;margin-right: auto;">
+					<div  style="width:100%;padding-top: 30px;padding-left:5%;padding-right:auto">
+						<div class="video">
+						<div class="video-wrap">
+						<div class="vr-small">
+							<div class="inner" data-iframe="video/MC1.mp4">
+								<img src="images/large-003.jpg" alt="">
+								<i class="play"></i>
+								<span class="text">②微课视频-初始化模块</span>
+							</div>
+							
+						</div>
+						<div class="vr-small" style="margin-left: 32%">
+						<div class="mu-sidebar-widget">
+											<h3 class="mu-sidebar-widget-title">学习资源</h3>
+											<ul class="mu-sidebar-widget-nav">
+												<strong>
+												<li><div class="void"><a class="void" data-iframe="assets/program/知识训练1初始化.swf" style="cursor: pointer;color:#0EBA9F">巩固练习</a></div></li>
+												<li><a href="https://m.umu.cn/ssu_Ue4h2314" target="_blank"><i aria-hidden="true"></i>PDF资源</a></li>
+												<li><a href="http://www.shaoerbc.org/code-course/appinventor-course/2934.html" target="_blank"><i aria-hidden="true"></i>知识拓展</a></li>
+												
+											</strong>
+											</ul>
+											
+										</div></div>
+						</div>
+						</div>
+			      </div>
+				</div>
+			</div>
+			
+			
+			<!-- Start 过程 -->
+			<section class="mu-newsletter">
+			<a name="过程" style=" position: relative;top: -120px;display: block;height: 0;overflow: hidden;"></a><div class="过程"></div>
+			<div class="mu-newsletter-area"  style="padding-top: 0px;padding-bottom: 0px;">
+			<div class="mu-title" style="padding-top: 0px">
+			<img src="assets/images/NK3.png" >
+			</div>
+			</div>
+		</section>
+			<div class="mu-title"  style="padding-top:0px;background: url(assets/images/NKBG.png);border-bottom: dotted;border-color: #0EBA9F">
+				<div  style="width:840px;height:260px;margin-left: auto;margin-right: auto;">
+					<div  style="width:100%;padding-top: 30px;padding-left:5%;padding-right:auto">
+						<div class="video">
+						<div class="video-wrap">
+						<div class="vr-small">
+							<div class="inner" data-iframe="video/MC3.mp4">
+								<img src="images/large-003.jpg" alt="">
+								<i class="play"></i>
+								<span class="text">③微课视频-过程模块</span>
+							</div>
+							
+						</div>
+						<div class="vr-small" style="margin-left: 32%">
+						<div class="mu-sidebar-widget">
+											<h3 class="mu-sidebar-widget-title">学习资源</h3>
+											<ul class="mu-sidebar-widget-nav">
+												<strong>
+												<li><div class="void"><a class="void" data-iframe="assets/program/知识训练3过程.swf" style="cursor: pointer;color:#0EBA9F">巩固练习</a></div></li>
+												<li><a href="https://m.umu.cn/ssu_Ue4h2314" target="_blank"><i aria-hidden="true"></i>PDF资源</a></li>
+												<li><a href="http://www.shaoerbc.org/code-course/appinventor-course/2029.html" target="_blank"><i aria-hidden="true"></i>知识拓展</a></li>
+												
+											</strong>
+											</ul>
+											
+										</div></div>
+						</div>
+						</div>
+			      </div>
+				</div>
+			</div>
+		
+				
+			</section>
+	                    
+						
+				
+			
+		</section>
+		<!-- End 新知学习 -->
+		
+		
+		
+		
+		
+		
+
+		<!-- Start 逻辑设计 -->
+	  <div class="mu-title">
+									<a name="规划设计" style=" position: relative;top: -120px;display: block;height: 0;overflow: hidden;"></a>
+									    <div class="规划设计"></div>
+										<h2>规划设计</h2>
+										<p>讨论学习后，开始设计你心目中的APP吧！</p>
+										<p>请使用下方画图工具绘制两张图：APP的界面设计和功能逻辑框图，完成品请分别截图准备好上交。</p>
+										<p><small>（备注：切换语言时请点击起始页里面的“language”切换）</small></p>
+		                                <div class="dropdown2">
+                                       <div class="dropdownbt2">查看操作指南</div>
+                                       <div class="dropdown-content2" style="z-index:999">
+                                       <img src="assets/images/DSLG.gif" alt="Trolltunga Norway" width="607" height="341">
+                                       
+                                               </div>
+                                               </div>
+		  
+		                             
+		                              
+
+                                    </div>
+	  <section class="mu-newsletter" >
+			<div class="mu-newsletter-area" style="padding:20px"> 
+                            <iframe src="https://www.draw.io/" scrolling="yes" name="draw.io"  border="3" frameborder="10px" width=100% height=500px></iframe> 
+			</div>
+		</section>	
+        	<div class="mu-service-area">
+			<section class="mu-title">
+				<img src="assets/images/PICT02s.gif"/>
+			<div class="video" style="margin-top:50px">
+            <a class="mu-bt1" data-iframe="assets/images/DS1.png" style="cursor: pointer;color: #4A4044"
+			   >点击查看参考作品</a><div>
+			<p><br><small>与阿卓的作品比一比吧！如有疑问，可回到知识学习模块。</small></br></p>
+			</section>
+					  </div>
+				
+		<!-- End 逻辑设计-->
+		
+	
+
+
+		
+		
+		 <!-- Start 交作品1 -->
+		<div id="mu-call-to-action">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-call-to-action-area">
+							<div class="mu-call-to-action-left">
+								<h1>作业上交①</h1>
+								<p>通往UMU，上交你所完成的逻辑设计和界面设计的截图。</p>
+							</div>
+							<a href="https://m.umu.cn/ssu_TLJme310" class="mu-primary-btn mu-quote-btn" target="_blank" >上交作业 <i class="fa fa-long-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		
+		
+	 
+
+	<!-- Start 基础实践 -->
+	   
+	  <div class="mu-title"  style="padding-top:100px;margin-bottom: 0px; background: url(assets/images/BGSP.png);">
+				<a name="制作实践" style=" position: relative;top: -120px;display: block;height: 0;overflow: hidden;"></a>
+    <div class="制作实践"></div>
+					<div  style="width:100%;height: 520px;">
+						<div class="mu-title" style="color:#FFFFFF">
+									
+										<h2 style="color:#FFFFFF">作品制作</h2>
+										<p>好了，目前为止，你已经完成了APP的规划设计和理论学习。</p>
+										<p>我们可以开始动手尝试制作自己的“随身医箱”App。</p>
+										<p>开始动手吧，让想法变为现实！</p>
+										<div class="mu-title" style="padding-top: 50px" >
+										<a href="https://app.wxbit.com/login/" class="mu-bt1" target="_blank">点击进入AppInventor2</a>
+			                                </div>       
+									</div>
+			      </div>
+				
+			</div>
+	 
+		<!-- End 基础实践 -->
+		
+		<!-- Start 交作品2 -->
+		<div id="mu-call-to-action">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-call-to-action-area">
+							<div class="mu-call-to-action-left">
+								<h1>作业上交②</h1>
+								
+								<p>请点击右方按钮上交基础任务完成品APP的视频演示。</p>
+							</div>
+							<a href="https://m.umu.cn/ssu_TLLr8cb6" class="mu-primary-btn mu-quote-btn" target="_blank" >上交作业 <i class="fa fa-long-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+			<!-- Start 回溯反思-->
+		<section class="mu-service" >
+			<div class="container">
+					<div class="col-md-12">
+						<div class="mu-service-area">
+							<!-- Title -->
+							<div class="row">
+								
+									<div class="mu-title" style="padding-top: 150px">
+									<a name="反思拓展" style=" position: relative;top: -120px;display: block;height: 0;overflow: hidden;"></a>
+									    <div class="反思拓展"></div>
+										<h2>反思拓展</h2>
+										<p>我们在解决问题时，任何一个问题，解决到任何一步，还是存在缺陷的。</p>
+										<p>让我们继续再寻找问题吧！</p>
+									</div>
+						  </div>
+					  </div>
+				</div>
+			</div>
+			<section class="mu-newsletter" >
+			<div class="mu-newsletter-area" style="padding-bottom: 0px">
+			<div class="mu-title" style="padding-top: 0px">
+			<p>请自主运用回溯的方法进行作品反思。</p>
+			<p>尝试在纸上梳理自己的想法与你认为要改进的地方。</p>
+			<p>做好之后来和小伙伴们一起讨论吧！</p>
+			<p><img src="assets/images/BOY02.png"></p>
+            <div class="mu-title" style="padding-top: 50px" >
+									<a href="https://m.umu.cn/ssu_U3Zhcdc4" class="mu-bt1" target="_blank">进入讨论</a>
+				                  <a href="https://m.umu.cn/ssu_1nUEp9aea" class="mu-bt1" target="_blank">作品参考</a>
+		  </div>
+			  </div>
+				<div>
+		<svg class="pwaves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+			<defs>
+				<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+			</defs>
+			<g class="parallax">
+				<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+				<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+				<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+				<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+			</g>
+		</svg>
+	</div>
+			</div>
+		</section>	
+		</section>
+
+		<!-- End 讨论改进->
+
+	 
+
+	
+		<!-- Start 拓展任务 -->
+		<section id="mu-from-blog">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-from-blog-area">
+							<!-- Title -->
+							<div class="row">
+								<div class="col-md-12">
+									<div class="mu-title" style="padding-top:0px;">
+										<p>&nbsp &nbsp 学无止境，继续向上攀登吧！</p>
+										<p>在完成你作品1.0版本的同时，是否想向2.0的模式进阶呢？</p>
+										<p>请点击查阅拓展任务的任务清单，对作品进行优化。</p>
+										<img src="assets/images/PICT01s.gif"/>
+										<div class="video">
+												<div style="padding-top: 50px">
+													 <a class="mu-bt1" data-iframe="assets/images/PLAN2.png" style="margin-top: 50px; cursor: pointer;color: #4A4044"
+			   >点击获取任务方案</a>
+													
+ 
+								   </div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+		<!-- End 拓展任务 -->
+		
+	 <!-- Start 交作品3 -->
+		<div id="mu-call-to-action">-->
+		<div id="mu-call-to-action">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-call-to-action-area">
+							<div class="mu-call-to-action-left">
+								<h1>作业上交③</h1>
+								<p>请将完成品文件发送至邮箱1826432083@qq.com</p>
+								<p>并点击右方按钮上交拓展任务完成品APP的视频演示。</p>
+							</div>
+							<a href="https://m.umu.cn/ssu_TLLqd282" class="mu-primary-btn mu-quote-btn" target="_blank" >上交作业 <i class="fa fa-long-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+  </main>
+	
+	<!-- End main content -->	
+			
+			
+<!-- Start footer -->
+	<footer id="mu-footer">
+		<div class="mu-footer-top">
+			<div class="container">
+						<div class="mu-single-footer" align="center">
+							<img class="mu-footer-logo" src="assets/images/logo.png" alt="logo" >
+							<p>作者邮箱</p>
+							<p>1826432083@qq.com</p>
+						</div>
+			</div>
+		</div> 
+		<div class="mu-footer-bottom">
+			<div class="container">
+		     			<div class="mu-footer-bottom-area">
+							<p class="mu-copy-right">&copy;1826432083@qq.com©-版权所有 </p>
+						</div>
+			</div>
+		</div>
+
+	</footer>
+	<!-- End footer -->
+
+	
+
+	
+	<!-- JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	  
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	<!-- Slick slider -->
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <!-- Progress Bar -->
+    <script src="https://unpkg.com/circlebars@1.0.3/dist/circle.js"></script>
+    <!-- Filterable Gallery js -->
+    <script type="text/javascript" src="assets/js/jquery.filterizr.min.js"></script>
+    <!-- Gallery Lightbox -->
+    <script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Counter js -->
+    <script type="text/javascript" src="assets/js/counter.js"></script>
+    <!-- Ajax contact form  -->
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    
+	
+    <!-- Custom js -->
+	<script type="text/javascript" src="assets/js/custom.js"></script>
+
+	<!-- About us Skills Circle progress  -->
+	<script>
+// First circle
+	    new Circlebar({
+        element : "#circle-1",
+        type : "progress",
+	      maxValue:  "90"
+	    });
+		
+		// Second circle
+	    new Circlebar({
+        element : "#circle-2",
+        type : "progress",
+	      maxValue:  "84"
+	    });
+
+	    // Third circle
+	    new Circlebar({
+        element : "#circle-3",
+        type : "progress",
+	      maxValue:  "60"
+	    });
+
+	    // Fourth circle
+	    new Circlebar({
+        element : "#circle-4",
+        type : "progress",
+	      maxValue:  "74"
+	    });
+swfobject.registerObject("FlashID");
+    </script>
+
+  <script type="text/javascript">
+		$(".video").on("click",".inner",function(){
+			var $this = $(this);
+			var video = $this.attr("data-iframe");
+			layer.open({
+			  type: 2,
+			  title: false,
+			  closeBtn: 1, //不显示关闭按钮
+			  shade: 0.3,
+			  skin: 'layer-alert-video',
+			  area: ['900px', '563px'],
+			  anim: 0,
+			  content: [video, 'yes'] //iframe的url，no代表不显示滚动条
+			});
+		});
+        </script>
+			
+<script type="text/javascript">
+$(".video").on("click",".mu-bt1",function(){
+			var $this = $(this);
+			var video = $this.attr("data-iframe");
+			layer.open({
+			  type: 2,
+			  title: false,
+			  closeBtn: 1, //不显示关闭按钮
+			  shade: 0.3,
+			  skin: 'layer-alert-video',
+			  area: ['900px', '563px'],
+			  anim: 0,
+			  content: [video, 'yes'] //iframe的url，no代表不显示滚动条
+			});
+		});
+swfobject.registerObject("FlashID");
+ </script>
+			
+<script type="text/javascript">
+$(".void").on("click",".void",function(){
+			var $this = $(this);
+			var video = $this.attr("data-iframe");
+			layer.open({
+			  type: 2,
+			  title: false,
+			  closeBtn: 1, //不显示关闭按钮
+			  shade: 0.3,
+			  skin: 'layer-alert-video',
+			  area: ['720px', '450px'],
+			  anim: 0,
+			  content: [video, 'yes'] //iframe的url，no代表不显示滚动条
+			});
+		});
+swfobject.registerObject("FlashID");
+       </script>
+				
+
+				
+				
+<script src="js/jquery.js"></script>
+<script>
+    $("#mcontent ul li").hover(function(){//鼠标悬停在上面实现什么效果
+        $(this).find("div").stop().animate({
+            "bottom":"0px"
+        },300);                
+    },function(){//鼠标离开实现什么功能
+        $(this).find("div").stop().animate({
+            "bottom":"-80px"
+        },500);
+    });
+</script>			
+</body>
+</html>
